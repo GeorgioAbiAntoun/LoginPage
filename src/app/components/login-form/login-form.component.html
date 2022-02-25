@@ -1,1 +1,21 @@
-<p>login-form works!</p>
+<div fxLayoutAlign="center center" fxFlexFill class="login-form">
+  <mat-card fxFlex="60" fxFlex.md="30" fxFlex.lg="25">
+
+    <mat-toolbar color="primary">Login Form</mat-toolbar>
+
+    <form fxLayoutAlign="stretch" fxLayout="column">
+
+      <mat-form-field>
+        <input matInput placeholder="Username">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput type="password" placeholder="Password">
+      </mat-form-field>
+
+      <a routerLink="/welcome"><button mat-raised-button type="submit" >Login</button></a>
+
+    </form>
+
+  </mat-card>
+</div>
